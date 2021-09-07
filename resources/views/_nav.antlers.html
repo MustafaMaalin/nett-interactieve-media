@@ -1,12 +1,24 @@
-<nav class="py-12 max-w-4xl mx-auto">
-<div class="flex items-center justify-between">
-    <a class="font-bold text-2xl" href="/">Nettt</a>
-    <ul class="flex items-center space-x-8 font-semibold">
-        {{nav:collections:pages}}
-        <li><a href="{{url}}" class="py-4 block"> {{title}}</a></li>
-        <li><a href="{{url}}" class="py-4 block"> {{title}}</a></li>
-        <li><a href="{{url}}" class="py-4 block"> {{title}}</a></li>
-        {{/nav:collections:pages}}
-    </ul>
-</div>
+<nav class="flex justify-between flex-wrap w-full z-50 sm:mt-5 mt-0 sticky top-0"> 
+    <div class="container mx-auto bg-white shadow-md relative">
+        <div class="w-full flex-grow lg:flex lg:w-auto">
+            <div class="flex flex-shrink-0 py-4 md:px-8 px-4 md:ml-0 ml-px w-1/6">
+                <a class="z-50" href="/" title="Nettt Interactieve Media">
+                   <img src="{{image}}" alt="" srcset="">
+                </a>
+            </div>
+            
+            <ul class="flex items-center space-x-8 font-semibold">
+                {{nav:collection:pages}}
+                <li><a href="{{url}}" class="py-4 block"> {{title}}</a></li>
+                
+                {{/nav:collection:pages}}
+            </ul>
+        </div>
+    </div>
+    >
 </nav>
+<div>
+    <div class="w-full lg:w-auto ml-40"> //margin-left 12.2 rem fixed het. 
+        <img  src="{{featuredimage}}" alt="">
+    </div
+</div>
