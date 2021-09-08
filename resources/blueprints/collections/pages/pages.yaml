@@ -100,6 +100,16 @@ sections:
           type: text
           icon: text
           listable: hidden
+      -
+        handle: footer
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: footerbackground
+          type: assets
+          icon: assets
+          listable: hidden
   sidebar:
     display: Sidebar
     fields:
