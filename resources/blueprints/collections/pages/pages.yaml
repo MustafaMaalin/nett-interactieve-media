@@ -11,19 +11,45 @@ sections:
           validate:
             - required
       -
+        handle: headernettt
+        field:
+          type: markdown
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: nettttitle
+          icon: markdown
+          listable: hidden
+          validate:
+            - required
+      -
+        handle: nettt-logo
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: nettt
+          type: assets
+          icon: assets
+          listable: hidden
+      -
         handle: content
         field:
           type: markdown
           display: Content
           localizable: true
       -
-        handle: assets
+        handle: featuredimage
         field:
           mode: grid
-          container: assets
           restrict: false
           allow_uploads: true
-          display: Assets
+          max_files: 1
+          display: 'Slider image'
           type: assets
           icon: assets
           listable: hidden
