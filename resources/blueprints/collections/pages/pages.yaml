@@ -1,4 +1,4 @@
-title: Pages
+title: Home
 sections:
   main:
     display: Main
@@ -10,6 +10,28 @@ sections:
           required: true
           validate:
             - required
+      -
+        handle: featuredimage
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Slider image'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: nettt-logo
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: nettt
+          type: assets
+          icon: assets
+          listable: hidden
       -
         handle: headernettt
         field:
@@ -26,32 +48,57 @@ sections:
           validate:
             - required
       -
-        handle: nettt-logo
-        field:
-          mode: grid
-          restrict: false
-          allow_uploads: true
-          max_files: 1
-          display: nettt
-          type: assets
-          icon: assets
-          listable: hidden
-      -
         handle: content
         field:
           type: markdown
           display: Content
           localizable: true
       -
-        handle: featuredimage
+        handle: newsitepics
         field:
           mode: grid
           restrict: false
           allow_uploads: true
-          max_files: 1
-          display: 'Slider image'
+          display: newsite
           type: assets
           icon: assets
+          listable: hidden
+      -
+        handle: newsitepics2
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: 'new pic'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: text-span
+        field:
+          input_type: text
+          antlers: false
+          display: Text
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: text-span2
+        field:
+          input_type: text
+          antlers: false
+          display: Text
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: lees_meer
+        field:
+          input_type: text
+          antlers: false
+          display: leesmeer
+          type: text
+          icon: text
           listable: hidden
   sidebar:
     display: Sidebar
@@ -73,3 +120,6 @@ sections:
           max_items: 1
           listable: false
           localizable: true
+  new_section:
+    display: 'New Section'
+    fields: {  }

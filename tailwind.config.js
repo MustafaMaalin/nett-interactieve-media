@@ -16,7 +16,7 @@ module.exports = {
           },
           colors: {
             "nettt-pink" :"#E70082",
-
+            "nettt-blue" :"#08B0F1"
           },
         
         },

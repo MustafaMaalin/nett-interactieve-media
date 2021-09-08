@@ -2,16 +2,16 @@
     <div class="container mx-auto bg-white shadow-md relative">
         <div class="w-full flex-grow lg:flex lg:w-auto">
             <div class="flex flex-shrink-0 py-4 md:px-8 px-4 md:ml-0 ml-px w-1/6">
-                <a class="z-50 " href="/" title="Nettt Interactieve Media">
+                <a class="z-50 flex text-gray-500 p-0 focus:outline-none text-2xl " href="/" title="Nettt Interactieve Media">
                    {{nettt-logo}}
                     <img class="h-16" src="{{url}}" alt="{{alt}}" srcset="">
                    {{/nettt-logo}}
                 </a>
             </div>
             
-            <ul class="flex items-center space-x-8 font-semibold">
+            <ul class="flex items-center space-x-8 ">
                 {{nav:collection:pages}}
-                <li><a href="{{url}}" class="py-4 block"> {{title}}</a></li>
+                <li><a href="{{url}}" class="py-4 block "> {{title}}</a></li>
                 
                 {{/nav:collection:pages}}
             </ul>
