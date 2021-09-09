@@ -1,29 +1,17 @@
-<!doctype html>
-<html  lang="{{ site:short_locale }}">
+<!DOCTYPE html>
+<html lang="{{ site:short_locale }}">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{{ title ?? site:name }}</title>
-        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}" />
         <script src="{{ mix src='/js/site.js' }}"></script>
     </head>
     <body class="font-sans bg-gray-200 overflow-x-hidden">
-            {{ partial:nav }}
-
-            
-                <div class="container mx-auto text-gray-700"> 
-                    <div class="w-full shadow-md">
-                    {{featuredimage}}
-                    <img class="select-none"  src="{{ glide:url width="1920" height="700" }}" alt="{{ alt }}">
-                    {{ /featuredimage }}
-                    </div>
-                </div>
-            
-            {{partial:tussenkop}}
-            {{partial:footer}}
-           
+        {{partial:nav}} 
+        {{partial:featuredimage}} 
+        {{partial:tussenkop}}
+        {{partial:footer}}
     </body>
 </html>
-
-

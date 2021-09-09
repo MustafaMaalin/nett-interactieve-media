@@ -1,0 +1,58 @@
+title: footer
+tree:
+  -
+    title: PROJECTEN
+  -
+    title: WEBDESIGN
+  -
+    title: WEBDEVELOPMENT
+    children:
+      -
+        title: 'Beheersysteem (CMS)'
+      -
+        title: 'Mobiele applicaties'
+      -
+        title: Internetapplicaties
+      -
+        title: Inspectietool
+      -
+        title: Webshop
+      -
+        title: Intranet
+      -
+        title: Narrowcasting
+  -
+    title: INTERNETMARKETING
+    children:
+      -
+        title: 'Zoekmachine-optimalisatie (SEO)'
+      -
+        title: 'Zoekmachine-adverteren (SEA)'
+      -
+        title: 'Social media marketing'
+      -
+        title: 'Statistiek Analyses'
+      -
+        title: 'Periodiek onderhoud'
+  -
+    title: SERVICES
+    children:
+      -
+        title: Advisering
+      -
+        title: Helpdesk
+      -
+        title: Hosting
+      -
+        title: 'Service Level Agreement (SLA)'
+  -
+    title: NETTT
+    children:
+      -
+        title: 'Over Nettt'
+      -
+        title: Werkwijze
+      -
+        title: Team
+      -
+        title: Partners

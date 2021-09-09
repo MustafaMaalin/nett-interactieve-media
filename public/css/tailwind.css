@@ -22044,6 +22044,15 @@ video {
           animation: bounce 1s infinite !important;
 }
 
+.image-zoom {
+  transition: all ease-in-out 0.3s;
+}
+
+.image-zoom-holder {
+  transition: all ease-in-out 0.3s;
+  overflow: hidden;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -43438,6 +43447,15 @@ video {
   .sm\:animate-bounce{
     -webkit-animation: bounce 1s infinite !important;
             animation: bounce 1s infinite !important;
+  }
+
+  .sm\:image-zoom {
+    transition: all ease-in-out 0.3s;
+  }
+
+  .sm\:image-zoom-holder {
+    transition: all ease-in-out 0.3s;
+    overflow: hidden;
   }
 }
 
@@ -64836,6 +64854,15 @@ video {
     -webkit-animation: bounce 1s infinite !important;
             animation: bounce 1s infinite !important;
   }
+
+  .md\:image-zoom {
+    transition: all ease-in-out 0.3s;
+  }
+
+  .md\:image-zoom-holder {
+    transition: all ease-in-out 0.3s;
+    overflow: hidden;
+  }
 }
 
 @media (min-width: 1024px){
@@ -86232,6 +86259,15 @@ video {
   .lg\:animate-bounce{
     -webkit-animation: bounce 1s infinite !important;
             animation: bounce 1s infinite !important;
+  }
+
+  .lg\:image-zoom {
+    transition: all ease-in-out 0.3s;
+  }
+
+  .lg\:image-zoom-holder {
+    transition: all ease-in-out 0.3s;
+    overflow: hidden;
   }
 }
 
@@ -107630,6 +107666,13 @@ video {
     -webkit-animation: bounce 1s infinite !important;
             animation: bounce 1s infinite !important;
   }
+
+  .xl\:image-zoom {
+    transition: all ease-in-out 0.3s;
+  }
+
+  .xl\:image-zoom-holder {
+    transition: all ease-in-out 0.3s;
+    overflow: hidden;
+  }
 }
-
-

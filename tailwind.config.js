@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
     purge: {
@@ -11,15 +11,18 @@ module.exports = {
     important: true,
     theme: {
         extend: {
-          fontFamily:{
-            sans: ['din-2014', ...defaultTheme.fontFamily.sans],
-          },
-          colors: {
-            "nettt-pink" :"#E70082",
-            "nettt-blue" :"#08B0F1"
-          },
-        
-        },
+            fontFamily: {
+                sans: ["din-2014", ...defaultTheme.fontFamily.sans]
+            },
+            colors: {
+                "nettt-pink": "#E70082",
+                "nettt-blue": "#08B0F1"
+            },
+            responsive:{
+            "image-zoom": "all ease-in-out 0.3s",
+            "image-zoom-holder": ""
+            },
+        }
     },
     variants: {},
     plugins: []

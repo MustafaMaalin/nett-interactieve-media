@@ -110,6 +110,33 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+      -
+        handle: nettt-footer-text
+        field:
+          input_type: text
+          antlers: false
+          display: Nettt-footer
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: webdesign-footer
+        field:
+          input_type: text
+          antlers: false
+          display: webdesign-footer
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: nettt-privacy-voorwaarden
+        field:
+          input_type: text
+          antlers: false
+          display: nettt-privacy-voorwaarden
+          type: text
+          icon: text
+          listable: hidden
   sidebar:
     display: Sidebar
     fields:

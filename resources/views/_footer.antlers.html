@@ -4,23 +4,25 @@
     <div
         class="lg:w-2/3 text-white bg-cover flex-wrap lg:flex lg:block hidden" "
     >
+    
         {{footer}}
-        <img class="" src="{{url}}" alt="" srcset="" />
+        <img class="" src="{{ glide:url width="853" height="308" }}" alt="" srcset="" />
         {{/footer}}
     </div>
+
+    <div class="flex-1 py-4 px-8 lg:border-r border-gray-400">
+
+    <ul>
+        {{nav:navigation:footer}}
+        <li><a href="{{url}}">{{title}}</a></li>
+        {{/nav:navigation:footer}}
+    </ul>
+</div>
 </footer>
 
-<div
-    class="footer-small-text container mx-auto text-center text-gray-500 my-4 px-4"
->
-    ©
-    <a href="/" class="hover:text-nettt-pink hover:text-nettt-color"
-        >Nettt Interactieve Media</a
-    >
-    2021 - webdesign &amp; webdevelopment Limburg -
-    <a
-        href="/voorwaarden-privacy"
-        class="hover:text-nettt-pink hover:text-nettt-color"
-        >Voorwaarden &amp; Privacy</a
-    >
+
+<div class="  container mx-auto text-center text-gray-500 my-4 px-4">
+   <a class="hover:text-nettt-pink" href="http://nett-interactieve-media.test/"> {{nettt-footer-text}} </a>
+   <span> {{webdesign-footer}}</span>
+   <a class="hover:text-nettt-pink" href="/"> {{nettt-privacy-voorwaarden}}</a>
 </div>
