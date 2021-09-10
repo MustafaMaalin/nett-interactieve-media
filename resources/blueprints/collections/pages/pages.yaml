@@ -101,7 +101,7 @@ sections:
           icon: text
           listable: hidden
       -
-        handle: footer
+        handle: footerpic
         field:
           mode: grid
           restrict: false

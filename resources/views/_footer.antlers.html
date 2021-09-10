@@ -1,22 +1,20 @@
 <footer
     class="container mx-auto bg-white mt-5 shadow-md text-gray-700 lg:flex relative"
 >
-    <div
-        class="lg:w-2/3 text-white bg-cover flex-wrap lg:flex lg:block hidden" "
-    >
+    <div class="lg:w-2/3 text-white bg-cover flex-wrap lg:flex lg:block hidden">
     
-        {{footer}}
+        {{footerpic}}
         <img class="" src="{{ glide:url width="853" height="308" }}" alt="" srcset="" />
-        {{/footer}}
+        {{/footerpic}}
     </div>
 
     <div class="flex-1 py-4 px-8 lg:border-r border-gray-400">
 
-    <ul>
-        {{nav:navigation:footer}}
-        <li><a href="{{url}}">{{title}}</a></li>
-        {{/nav:navigation:footer}}
-    </ul>
+{{# <ul>
+    {{nav:footer}}    
+    <li><a href="{{url}}" class="{{is_current || is_parent ?= 'text-red-700'}}"></a>{{ title }}</li>
+    {{/nav:footer}}
+</ul> #}}
 </div>
 </footer>
 

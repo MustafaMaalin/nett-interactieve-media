@@ -1,4 +1,7 @@
 title: footer
+collections:
+  - pages
+max_depth: 3
 tree:
   -
     title: PROJECTEN
